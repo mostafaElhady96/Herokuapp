@@ -20,7 +20,7 @@ public class hooks {
     }
     @After
     public void CloseBrwoser() throws InterruptedException {
-       Thread.sleep(2000);
+       Thread.sleep(1000);
         driver.quit();
 
     }
